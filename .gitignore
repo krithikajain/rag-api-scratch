@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+ENV/
+
+# ChromaDB local database files
+db/
+k8s.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS specific files
+.DS_Store
