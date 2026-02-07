@@ -16,4 +16,4 @@ for filename in os.listdir("docs"):
             text = f.read()
             collection.add(documents=[text], ids=[filename])
 
-print("Re-embedded all documents in docs/ folder into Chroma")
+print("Re-embedded all documents in docs/ folder")
