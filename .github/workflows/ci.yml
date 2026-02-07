@@ -3,9 +3,13 @@ name: RAG CI Pipeline
 on:
   push:
     paths:
-      - 'k8s.txt'
+      - 'docs/**'       # Changed from 'k8s.txt'
       - 'app.py'
-      - 'embed.py'
+      - 'embed_docs.py' # Changed from 'embed.py'
+    # paths:
+    #   - 'k8s.txt'
+    #   - 'app.py'
+    #   - 'embed.py'
 
 jobs:
   test-and-build:
